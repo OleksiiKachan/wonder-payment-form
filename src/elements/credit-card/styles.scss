@@ -1,0 +1,39 @@
+.credit-card {
+  width: 430px;
+  height: 230px;
+  border-radius: 10px;
+  background-image: url('../../assets/images/card-background.svg');
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 25px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  &__card-info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__info-section {
+    color: #fff;
+  }
+
+  &__info-label {
+    font-size: 13px;
+    opacity: 0.7;
+    margin: 0 0 5px 0;
+  }
+
+  &__info-value {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+}
