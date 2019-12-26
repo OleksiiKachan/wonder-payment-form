@@ -1,0 +1,23 @@
+.card-number {
+  display: flex;
+  margin-bottom: 25px;
+
+  &__section {
+    margin-right: 20px;
+    display: flex;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  &__symbol {
+    font-size: 27px;
+    margin-right: 5px;
+    color: #fff;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+}
