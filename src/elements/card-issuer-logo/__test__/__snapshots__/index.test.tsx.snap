@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardIssuerLogo Amex 1`] = `
+<img
+  alt="amex"
+  src="amex.svg"
+/>
+`;
+
+exports[`CardIssuerLogo Discover 1`] = `
+<img
+  alt="discover"
+  src="discover.svg"
+/>
+`;
+
+exports[`CardIssuerLogo Mastercard 1`] = `
+<img
+  alt="mastercard"
+  src="mastercard.svg"
+/>
+`;
+
+exports[`CardIssuerLogo Visa 1`] = `
+<img
+  alt="visa"
+  src="visa.svg"
+/>
+`;
