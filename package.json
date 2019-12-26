@@ -1,0 +1,92 @@
+{
+  "name": "wonder-payment-form",
+  "version": "1.0.0",
+  "description": "Interactive &amp; responsive form for payment info",
+  "main": "src/index.tsx",
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "react",
+    "typescript"
+  ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "coverage": "react-scripts test --env=jsdom --coverage"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-push": "cross-env CI=true npm test"
+    }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OleksiiKachan/wonder-payment-form.git"
+  },
+  "author": "Oleksii Kachan <alexkachan.lutsk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OleksiiKachan/wonder-payment-form/issues"
+  },
+  "homepage": "https://github.com/OleksiiKachan/wonder-payment-form#readme",
+  "dependencies": {
+    "@types/classnames": "^2.2.9",
+    "@types/node": "^13.1.1",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "@types/styled-components": "^4.4.1",
+    "babel-plugin-styled-components": "^1.10.6",
+    "classnames": "^2.2.6",
+    "cross-env": "^6.0.3",
+    "node-sass": "^4.13.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "^3.3.0",
+    "sass": "^1.24.0",
+    "styled-components": "^4.4.1",
+    "styled-components-modifiers": "^1.2.5",
+    "typescript": "^3.7.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@commitlint/cli": "^8.2.0",
+    "@types/enzyme": "^3.10.4",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/jest": "^24.0.25",
+    "babel-loader": "^8.0.6",
+    "cz-customizable": "^6.2.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.3",
+    "eslint-config-prettier": "^6.8.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "config/git/commitizen.js"
+    }
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  }
+}
