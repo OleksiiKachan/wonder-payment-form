@@ -61,7 +61,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
-    "@commitlint/cli": "^8.3.6",
+    "@commitlint/cli": "^17.1.2",
     "@types/enzyme": "^3.10.4",
     "@types/enzyme-adapter-react-16": "^1.0.5",
     "@types/jest": "^24.0.25",
