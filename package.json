@@ -60,7 +60,7 @@
     "typescript": "^3.7.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.7",
+    "@babel/core": "^7.29.6",
     "@commitlint/cli": "^17.1.2",
     "@types/enzyme": "^3.10.4",
     "@types/enzyme-adapter-react-16": "^1.0.5",
